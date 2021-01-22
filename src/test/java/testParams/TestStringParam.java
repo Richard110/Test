@@ -15,6 +15,9 @@ public class TestStringParam {
         x.delete(0, 2).append("cd");
     }
 
+    /**
+     * @param x
+     */
     public static void change(String x) {
         x = "cd";
     }
